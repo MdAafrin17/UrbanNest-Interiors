@@ -133,6 +133,25 @@ Remember to compress images and add alt text on every <img>.
 - Modern luxury minimalism, generous whitespace, rounded pill buttons (`border-radius: 9999px`), subtle drop shadows (`0 8px 24px rgba(38, 70, 83, 0.08)`), and smooth hover interactions (`transform: translateY(-4px)`).
 - Touch target sizes maintain a minimum of **44px &times; 44px** on all viewports.
 
+### Asset Pack Image Mapping (Level 1)
+All website visual assets strictly incorporate the official Level 1 Asset Pack:
+
+| Asset Name | Dimensions | Format | Usage Location | Source in Asset Pack |
+| :--- | :--- | :--- | :--- | :--- |
+| **`favicon.png`** | 128 &times; 128 | PNG | Browser tab icon across all 4 pages | Page 1 (Icon badge) |
+| **`logo.svg` / `logo.png`** | Vector / 960 &times; 240 | SVG / PNG | Header brand logo on light navbar | Page 2 (Official Logo) |
+| **`logo-white.svg`** | Vector | SVG | Footer brand logo on dark charcoal footer | Page 2 (High-contrast variant) |
+| **`hero-living-room.webp`** | 1600 &times; 800 | WebP & JPG | Homepage Hero Banner | Page 6 (Hero banner &ndash; living room) |
+| **`service-full-home.webp`** | 800 &times; 520 | WebP & JPG | Full Home Interiors service card | Page 8 (Full Home Interiors) |
+| **`service-modular-kitchen.webp`** | 800 &times; 520 | WebP & JPG | Modular Kitchen service card | Page 9 (Modular Kitchen) |
+| **`service-living-bedroom.webp`** | 800 &times; 520 | WebP & JPG | Living & Bedroom Design service card | Page 10 (Living &amp; Bedroom Design) |
+| **`service-office.webp`** | 800 &times; 520 | WebP & JPG | Commercial Office Interiors service card | Page 11 (Office Interiors) |
+| **`service-3d-viz.webp`** | 800 &times; 520 | WebP & JPG | 3D Design & Visualization service card | Page 7 (3D Design &amp; Visualization) |
+| **`service-renovation.webp`** | 800 &times; 520 | WebP & JPG | Turnkey Renovation & Makeover card | Page 12 (Renovation &amp; Makeover) |
+| **`about-studio.webp` / `about-team.webp`** | 1200 &times; 800 | WebP & JPG | About Page Heritage &amp; Team section | Page 3 (About page &ndash; team photo) |
+| **`project-gallery-1.webp`** | 900 &times; 600 | WebP & JPG | Featured Project Gallery 1 | Page 4 (Project gallery 1) |
+| **`project-gallery-2.webp`** | 900 &times; 600 | WebP & JPG | Featured Project Gallery 2 | Page 5 (Project gallery 2) |
+
 ---
 
 ## 6. Public REST API Integration

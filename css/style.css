@@ -905,6 +905,82 @@ p:last-child {
 }
 
 /* --------------------------------------------------------------------------
+   9b. Project Gallery Showcase
+   -------------------------------------------------------------------------- */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-2xl);
+}
+
+.gallery-card {
+  background-color: var(--color-white);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+  border: 1px solid var(--color-border-light);
+}
+
+.gallery-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+}
+
+.gallery-image-wrapper {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 3 / 2;
+  background-color: var(--color-cream);
+}
+
+.gallery-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-slow);
+}
+
+.gallery-card:hover .gallery-card-img {
+  transform: scale(1.03);
+}
+
+.gallery-overlay {
+  position: absolute;
+  top: var(--space-md);
+  left: var(--space-md);
+}
+
+.gallery-badge {
+  display: inline-block;
+  padding: 0.3rem 0.85rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background-color: rgba(47, 93, 80, 0.9);
+  color: var(--color-cream);
+  border-radius: var(--radius-full);
+  backdrop-filter: blur(4px);
+}
+
+.gallery-card-content {
+  padding: var(--space-xl);
+}
+
+.gallery-card-content h3 {
+  font-size: 1.35rem;
+  margin-bottom: var(--space-xs);
+  color: var(--color-charcoal);
+}
+
+.gallery-card-content p {
+  color: var(--color-text-muted);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+/* --------------------------------------------------------------------------
    10. Why Choose Us (Value Pillars)
    -------------------------------------------------------------------------- */
 .features-grid {
@@ -2000,6 +2076,11 @@ p:last-child {
   .stats-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: var(--space-lg);
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
   }
 
   .about-story-grid {
