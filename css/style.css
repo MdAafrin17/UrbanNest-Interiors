@@ -448,6 +448,10 @@ p:last-child {
   gap: var(--space-md);
 }
 
+.mobile-cta-wrapper {
+  display: none;
+}
+
 /* Mobile Hamburger Toggle */
 .menu-toggle {
   display: none;
