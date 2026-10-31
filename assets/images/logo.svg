@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none">
+  <!-- Official UrbanNest Icon Badge -->
+  <g transform="translate(4, 8)">
+    <!-- Rounded Green Badge -->
+    <rect x="0" y="0" width="56" height="56" rx="14" ry="14" fill="#2F5D50" />
+    
+    <!-- White / Cream House Silhouette -->
+    <!-- Peak at (28, 16), slopes to (14, 30) & (42, 30), walls down to y=42 -->
+    <path d="M 28 15 L 43 30 L 43 42 L 13 42 L 13 30 Z" fill="#F4F1EA" />
+    
+    <!-- Warm Gold Centered Door -->
+    <rect x="23" y="30" width="10" height="12" fill="#E9C46A" />
+  </g>
+
+  <!-- Brand Typography -->
+  <g transform="translate(74, 8)">
+    <!-- Primary Name: UrbanNest -->
+    <text x="0" y="32" 
+          font-family="'Poppins', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif" 
+          font-size="28" 
+          font-weight="700" 
+          letter-spacing="-0.5" 
+          fill="#264653">UrbanNest</text>
+    
+    <!-- Subtitle: INTERIORS -->
+    <text x="2" y="48" 
+          font-family="'Poppins', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif" 
+          font-size="10.5" 
+          font-weight="600" 
+          letter-spacing="5" 
+          fill="#2F5D50">INTERIORS</text>
+  </g>
+</svg>
